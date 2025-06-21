@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bahattin Tok</title>
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <div class="logo">
+            <i class="fa-sharp-duotone fa-solid fa-user-secret"></i>
+            <div class="logo-text">Bahattin Tok</div>
+          </div>
+          <nav class="nav-menu">
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="index.html" class="active">Anasayfa</a></li>
+              <li><a href="./public/about.html">Hakkımda</a></li>
+              <li><a href="./public/contact.html">iletişim</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="./public/images/main_photo.jpg" alt="profile pic" />
+          </div>
+          <div class="hero-text">
+            <h5><span class="input"></span></h5>
+            <h1>Bahattin Tok</h1>
+            <p>
+              Merhaba! Yazılım dünyasındaki yolculuğuma yeni başlayan bir
+              geliştiriciyim. Bu sitede, HTML5, CSS3, JavaScript, PHP, Python ,
+              React ve daha fazlasını kullanarak oluşturduğum projeleri
+              paylaşıyorum. Amacım, Full Stack Developer olmak ve pratik
+              deneyimlerle yeteneklerimi geliştirmek. Öğrenme serüvenimi takip
+              etmek ve neler inşa ettiğimi görmek isterseniz, doğru yerdesiniz!
+            </p>
+
+            <div class="btn-group">
+              <a href="./public/contact.html" class="btn">iletişim</a>
+            </div>
+
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a
+                href="https://www.instagram.com/bahattin.tok.756?igsh=MXB2ZWYzamF5YmkxZw=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/BT-maker"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+      <div class="wrapper">
+        <h2 class="section-title">My Projects</h2>
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <video class="project-video" muted loop>
+            <source src="./public/videos/news-web-git.mp4" type="video/mp4" />
+          </video>
+          <div class="project-content">
+            <h3>MERN stack</h3>
+            <p>
+              (MongoDB, Express.js, React, Node.js) kullanılarak geliştirilen bu
+              haber portalı, modern web teknolojileriyle güçlü bir full-stack
+              uygulama örneği sunuyor. Frontend'de performans odaklı Vite +
+              React yapısı ve responsive tasarım için Tailwind CSS
+              kullanılırken, sayfa yönlendirmeleri React Router ile yönetiliyor.
+              Kullanıcı güvenliği, JWT tabanlı kimlik doğrulama ve HTTP-only
+              cookie'lerle sağlanıyor. Haberler kategorilere göre
+              filtrelenebiliyor ve ana sayfada dinamik reklam alanları yer
+              alıyor. Admin paneli, yalnızca yetkili kullanıcıların erişimine
+              açık olup CRUD işlemleriyle haber, kategori ve reklam yönetimine
+              imkan tanıyor. Veri yönetimi için React Query, backend işlemleri
+              için Express.js ile oluşturulan RESTful API ve NoSQL veritabanı
+              olarak MongoDB kullanılıyor. Ölçeklenebilir ve güvenli yapısıyla
+              profesyonel bir haber platformu deneyimi sunan bu proje,
+              full-stack geliştirme süreçlerini kapsamlı şekilde yansıtıyor.
+            </p>
+            <div class="project-tech">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>Tailwind</span>
+              <span>MongoDB</span>
+              <span>Mongoose</span>
+              <span>JWT (JSON Web Tokens)</span>
+              <span>HTTP-only Cookies</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <video class="project-video" muted loop>
+            <source src="./public/videos/shopping.mp4" type="video/mp4" />
+          </video>
+          <div class="project-content">
+            <h3>E-Ticaret Web</h3>
+            <p>
+              Bu proje, Node.js ve Express kullanılarak geliştirilmiş modern bir
+              sunucu taraflı render edilen e-ticaret uygulamasıdır. Dinamik HTML
+              sayfaları EJS şablon motoruyla oluşturulurken, stil için CSS ve
+              Bootstrap, etkileşim için ise hem istemci hem de sunucu tarafında
+              JavaScript kullanılmıştır. Uygulama, kullanıcı yönetimi, alışveriş
+              sepeti, sipariş geçmişi, favori ürünler ve kupon sistemi gibi
+              temel e-ticaret özelliklerini içermektedir. Proje yapısı;
+              route'lar, view'lar ve public kaynakların düzenli bir şekilde
+              ayrıldığı temiz bir mimariye sahiptir. Statik dosyalar public
+              dizininden servis edilmekte olup, tüm bağımlılıklar npm ile
+              yönetilmektedir. Bu uygulama, modern web teknolojileri
+              kullanılarak geliştirilmiş, kullanıcı dostu ve işlevsel bir
+              e-ticaret çözümü sunmayı hedeflemektedir.
+            </p>
+            <div class="project-tech">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>EJS</span>
+              <span>Bootstrap</span>
+              <span>Google Fonts</span>
+              <span>CSS Animations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <video class="project-video" muted loop>
+            <source src="./public/videos/organic-food.mp4" type="video/mp4" />
+          </video>
+          <div class="project-content">
+            <h3>Organic Food Website</h3>
+            <p>
+              Bu proje, modern bir organik gıda e-ticaret web sitesi olarak
+              tasarlanmıştır. SASS ve BEM metodolojisi kullanılarak geliştirilen
+              proje, Bootstrap 5.3.3 ile responsive bir düzen sunmaktadır.
+              Google Fonts'tan (Inter, Lato, Rubik) yararlanılan projede, HTML5
+              ve CSS animasyonları sayesinde zengin bir kullanıcı deneyimi
+              sağlanmıştır. Video arka planlar, form doğrulama ve tüm cihazlarla
+              uyumluluk gibi modern web özellikleri de entegre edilmiştir.
+              Kullanıcı dostu arayüzü ve çağdaş tasarımıyla organik ürün
+              alışverişi için ideal bir dijital çözüm sunmayı hedeflemektedir.
+            </p>
+            <div class="project-tech">
+              <span>Html</span>
+              <span>Sass</span>
+              <span>Bootstrap</span>
+              <span>Google Fonts</span>
+              <span>CSS Animations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <video class="project-video" muted loop>
+            <source src="./public/videos/sid-page.mp4" type="video/mp4" />
+          </video>
+          <div class="project-content">
+            <h3>I am Sidney</h3>
+            <p>
+              "I am Sidney", buz devri temasıyla tasarlanmış eğlenceli ve
+              yaratıcı bir kişisel portfolyo sitesidir. Sidney karakterinin
+              deneyimlerini, eğitimini, yeteneklerini ve başarılarını modern bir
+              tasarımla sergileyen site; sabit gezinme menüsü, sosyal medya
+              bağlantıları, yetenek ikonları ve hobi bölümleriyle keyifli bir
+              kullanıcı deneyimi sunuyor. Tematik yaklaşımı ve interaktif
+              öğeleriyle ziyaretçilerine hem görsel bir şölen hem de profesyonel
+              bir portfolyo deneyimi vaat ediyor. Özellikle yaratıcı
+              sektörlerdeki kişilere ilham verebilecek bu tasarım, kişisel
+              markalaşmaya farklı bir bakış açısı getiriyor.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+              <span>Google Fonts</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="project-card">
+          <video class="project-video" muted loop>
+            <source src="./public/videos/highorlower.mp4" type="video/mp4" />
+          </video>
+          <div class="project-content">
+            <h3>The Higher Lower Game</h3>
+            <p>
+              Bu proje, kullanıcıların sosyal medya hesaplarının takipçi
+              sayılarını tahmin etmesine dayanan interaktif bir web tabanlı
+              oyundur. Tamamen HTML, CSS ve JavaScript kullanılarak geliştirilen
+              oyun, kullanıcıların karşılarına çıkan iki farklı sosyal medya
+              hesabından hangisinin daha fazla takipçisi olduğunu tahmin etmesi
+              prensibiyle çalışır. Her doğru tahmin oyuncunun skorunu
+              artırırken, yanlış tahmin oyunun sonlanmasına neden olur. Modern
+              ve minimalist bir Türkçe arayüze sahip olan oyun, tüm cihazlara
+              uyumlu responsive tasarımıyla dikkat çeker. Oyun deneyimini
+              zenginleştirmek için SweetAlert2 kütüphanesi kullanılarak görsel
+              açıdan etkileyici bildirimler ve geri bildirimler eklenmiştir.
+              Basit ama bağımlılık yapıcı oyun mekaniği sayesinde kullanıcılar
+              hem keyifli vakit geçirebilir hem de sosyal medya istatistikleri
+              hakkında fikir sahibi olabilirler. Temel web teknolojilerinin
+              etkili bir şekilde kullanıldığı bu proje, interaktif ve eğlenceli
+              bir kullanıcı deneyimi sunmayı hedeflemektedir.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---typed js for typing text effect-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
