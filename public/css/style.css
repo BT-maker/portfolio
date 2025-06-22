@@ -142,6 +142,8 @@ nav .navlinks li a.active {
 }
 .btn-group{
     margin:45px 0;
+    display: flex;
+    gap: 15px;
 }
 .btn-group .btn{
     border-color: #d5d5d5;
@@ -373,11 +375,10 @@ nav .navlinks li a.active {
     }
 
     .click-me {
-
         font-size: 1rem;
         padding: 8px 16px;
         left: 50%;
-        top: 20%;
+        top: 10%;
     }
 }
 
@@ -385,5 +386,7 @@ nav .navlinks li a.active {
     .click-me {
         font-size: 0.9rem;
         padding: 6px 12px;
+        left: 50%;
+        top: 5%;
     }
 }
